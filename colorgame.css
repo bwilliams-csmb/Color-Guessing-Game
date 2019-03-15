@@ -1,5 +1,6 @@
 body {
   background-color: #101010;
+  margin: 0px;
 }
 
 .square {
@@ -7,7 +8,8 @@ body {
   float: left;
   width: 30%;
   padding-bottom: 30%;
-  margin: 1.66%
+  margin: 1.66%;
+  border-radius: 25px;
 }
 
 .container {
@@ -16,8 +18,15 @@ body {
 }
 
 h1 {
+  background-color: #5096FF;
   color: #FFFFFF;
-  margin-left: auto;
+  height: 75px;
+  margin: 0px;
+  text-align: center;
+}
+
+#mainText {
+  vertical-align: middle;
 }
 
 #bar {
@@ -25,4 +34,25 @@ h1 {
   height: 30px;
   text-align: center;
   color: black;
+  margin: 0px;
+}
+
+button {
+  background-color: white;
+  color: #5096FF;
+  height: 30px;
+  border: none;
+}
+
+button:hover {
+  background-color: #5096FF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #5096FF;
+  color: white;
+  border: none;
 }
